@@ -25,6 +25,10 @@ dependencies:
   cupertino_icons: ^0.1.2
   # 最常用的英文单词以及一些实用功能
   english_words: ^3.1.5
+  # 网络请求库
+  http: ^0.12.0+2
+  # SQLite 数据库
+  sqflite: any
 
 dev_dependencies:
   flutter_test:
@@ -44,8 +48,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - images/pic_test.png
-    - images/pic_test1.png
+  - images/pic_test.png
+  - images/pic_test1.png
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
